@@ -1,0 +1,22 @@
+--cpu Cortex-M3
+"stm32103ve_timer_controlled_pwm_update\system_stm32f1xx.o"
+"stm32103ve_timer_controlled_pwm_update\startup_stm32f103xe.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_tim.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_pwr.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_gpio.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_dma.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_gpio_ex.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_flash.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_cortex.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_rcc.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_tim_ex.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_rcc_ex.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_flash_ex.o"
+"stm32103ve_timer_controlled_pwm_update\main.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_hal_msp.o"
+"stm32103ve_timer_controlled_pwm_update\stm32f1xx_it.o"
+--library_type=microlib --strict --scatter "stm32103ve_timer_controlled_PWM_update\stm32103ve_timer_controlled_PWM_update.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "stm32103ve_timer_controlled_PWM_update.map" -o stm32103ve_timer_controlled_PWM_update\stm32103ve_timer_controlled_PWM_update.axf
