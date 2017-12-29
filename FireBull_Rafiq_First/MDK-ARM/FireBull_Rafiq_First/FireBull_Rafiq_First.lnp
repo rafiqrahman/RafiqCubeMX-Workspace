@@ -1,0 +1,25 @@
+--cpu Cortex-M3
+"firebull_rafiq_first\system_stm32f1xx.o"
+"firebull_rafiq_first\stm32f1xx_hal_flash_ex.o"
+"firebull_rafiq_first\stm32f1xx_hal_tim.o"
+"firebull_rafiq_first\stm32f1xx_hal_rcc_ex.o"
+"firebull_rafiq_first\stm32f1xx_hal_pwr.o"
+"firebull_rafiq_first\stm32f1xx_hal_flash.o"
+"firebull_rafiq_first\stm32f1xx_hal_rcc.o"
+"firebull_rafiq_first\stm32f1xx_hal_adc.o"
+"firebull_rafiq_first\stm32f1xx_hal_dma.o"
+"firebull_rafiq_first\stm32f1xx_hal_adc_ex.o"
+"firebull_rafiq_first\stm32f1xx_hal_cortex.o"
+"firebull_rafiq_first\stm32f1xx_hal_tim_ex.o"
+"firebull_rafiq_first\stm32f1xx_hal_gpio_ex.o"
+"firebull_rafiq_first\stm32f1xx_hal_gpio.o"
+"firebull_rafiq_first\stm32f1xx_hal.o"
+"firebull_rafiq_first\startup_stm32f103xe.o"
+"firebull_rafiq_first\stm32f1xx_hal_msp.o"
+"firebull_rafiq_first\main.o"
+"firebull_rafiq_first\stm32f1xx_it.o"
+"firebull_rafiq_first\rafiq_ili9325_tft.o"
+--library_type=microlib --strict --scatter "FireBull_Rafiq_First\FireBull_Rafiq_First.sct"
+--diag_suppress=L6329 --summary_stderr --info summarysizes --map --load_addr_map_info --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list "FireBull_Rafiq_First.map" -o FireBull_Rafiq_First\FireBull_Rafiq_First.axf
