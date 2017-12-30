@@ -1,1 +1,0 @@
-103ve_sixr_motor\startup_stm32f103xe.o: startup_stm32f103xe.s
